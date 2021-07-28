@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+*{
+    font-family: 'Style Script', cursive;
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+}
+h1{
+    font-size:45px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size:30px;
+    
+}
+p{
+    font-size: 25px;
+}
+
+.tomato{
+    color:tomato;
+}
+
+/*Head banner section style */
+.head-banner{
+    width:80.6%;
+    margin:auto;
+    padding-bottom: 50px;
+}
+.flex-bet{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.flex-even{
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+.half-width{
+    width:50%;
+       
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+}
+button{
+    background-image: linear-gradient(tomato,red);
+    padding:15px 25px;
+    border-style: none;
+    border-radius: 25px;
+}
+
+/*About section style*/
+.about{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-size:cover;
+    padding-top: 40px;
+    
+}
+.about>div{
+    width:80.6%;
+    margin:auto;
+}
+.about .half-width img{
+    width:50%;
+
+}
+
+
+
+/*recipe section style*/
+.recipe{
+    padding:70px;
+    
+}
+.recipe>div{
+    width:90%;
+    margin:auto;
+}
+section.recipe .recipe-info{
+    text-align:center;
+}
+.recipe .food-item{
+    width:31.33%;
+    box-shadow: 2px 1px 30px -6px rgba(0,0,0,0.73);
+    -webkit-box-shadow: 2px 1px 30px -6px rgba(0,0,0,0.73);
+    -moz-box-shadow: 2px 1px 30px -6px rgba(0,0,0,0.73);
+    border-radius: 15px;
+}
+.recipe .food-item h3, p{
+    margin:18px 16px;
+}
+.recipe .food-item img{
+    width:90%;
+    margin-left:16px;
+    margin-top:16px;
+}
+
+/*followers section style*/
+.followers > div{
+    width:80.6%;
+    margin:100px auto;
+    padding:50px 0px;
+    box-shadow: 2px 1px 30px -6px rgba(0,0,0,0.73);
+    -webkit-box-shadow: 2px 1px 30px -6px rgba(0,0,0,0.73);
+    -moz-box-shadow: 2px 1px 30px -6px rgba(0,0,0,0.73);
+    border-radius:20px;
+}
+
+.followers h1{
+    margin:0px;
+    
+}
+
+/*footer section style*/
+footer{
+    background-color: BLACK;
+    height:200px;
+    text-align:center;
+}
+
+.white{
+    color:white;
+}
+
+.footer-h2{
+    padding-top:25px;
+}
+
+
+
+
